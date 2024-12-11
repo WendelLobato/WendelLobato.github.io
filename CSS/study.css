@@ -1,0 +1,161 @@
+.study {
+  background-color: #141414;
+  padding: 7.5rem 0;
+}
+
+.study-main {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+}
+
+.study-main h2 {
+  font-size: 9rem;
+  text-transform: uppercase;
+  color: black;
+  word-break: break-all;
+  max-width: 5ch;
+  line-height: 9rem;
+}
+
+.study-details {
+  margin-left: 7.5rem;
+}
+
+.study-details p {
+  color: #a3a3a3;
+  font-size: 1.5rem;
+  max-width: 45ch;
+  line-height: 1.4;
+  padding-bottom: 3.75rem;
+}
+
+.study-details strong {
+  color: white;
+}
+
+.study-details-list-detail {
+  background-color: #090909;
+  padding: 20px;
+  border-radius: 4px;
+  border: 1px solid black;
+  width: max-content;
+  position: relative;
+  margin-bottom: 3.75rem;
+}
+
+.study-details-list-detail::before {
+  background: linear-gradient(#b6f829, #67dd0a) no-repeat center;
+  content: "";
+  width: 4px;
+  height: 16px;
+  top: 53px;
+  left: -5px;
+  position: absolute;
+}
+
+.study-details-list-detail p {
+  padding-bottom: 0;
+  color: #a3a3a3;
+  font-size: 14px;
+  line-height: 20px;
+  text-transform: uppercase;
+  padding-bottom: 10px;
+}
+
+.study-details-list-detail h3 {
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 25px;
+  padding-bottom: 50px;
+}
+
+.study-details-list-detail span {
+  color: #a3a3a3;
+  font-size: 18px;
+  line-height: 20px;
+}
+
+.cursos {
+  position: relative;
+  padding-bottom: 3.5rem;
+}
+
+.cursos::before {
+  position: absolute;
+  content: "";
+  background: url("../IMG/cursos.svg") no-repeat;
+  width: 100px;
+  height: 100px;
+  top: -4px;
+  left: -36px;
+}
+
+.cursos h3 {
+  color: #8f8f8f;
+  font-size: 14px;
+  line-height: 20px;
+  text-transform: uppercase;
+  padding-bottom: 30px;
+}
+
+.cursos-details {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 20px;
+}
+
+.cursos-details p {
+  padding-bottom: 0;
+  margin-bottom: 0;
+  color: white;
+  font-size: 18px;
+  line-height: 20px;
+}
+
+.cursos-details span {
+  color: #8f8f8f;
+  font-size: 18px;
+  line-height: 20px;
+}
+.cursos-idiomas {
+  position: relative;
+}
+
+.cursos-idiomas::before {
+  position: absolute;
+  content: "";
+  background: url("../IMG/idiomas.svg") no-repeat;
+  width: 100px;
+  height: 100px;
+  top: -4px;
+  left: -36px;
+}
+
+.cursos-idiomas h3 {
+  color: #8f8f8f;
+  font-size: 14px;
+  line-height: 20px;
+  text-transform: uppercase;
+  padding-bottom: 30px;
+}
+
+.cursos-details-idiomas {
+  display: flex;
+  padding-bottom: 20px;
+  gap: 10px;
+}
+
+.cursos-details-idiomas p {
+  padding-bottom: 0;
+  margin-bottom: 0;
+  color: white;
+  font-size: 18px;
+  line-height: 20px;
+}
+
+.cursos-details-idiomas span {
+  color: #8f8f8f;
+  font-size: 18px;
+  line-height: 20px;
+}

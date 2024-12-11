@@ -1,0 +1,49 @@
+.footer{
+    background-color: black;
+    padding-bottom: 60px;
+    
+}
+
+.footer-details::before{
+    content: "";
+    background: url("../IMG/detalhe.svg") no-repeat center;
+    width: 150px;
+    height: 200px;
+    position: absolute;
+    background-size: contain;
+    top: -90px;
+}
+
+.footer-details{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    position: relative;
+}
+
+.footer-details-one p{
+    color: #CCCCCC;
+    font-size: 24px;
+    line-height: 32px;
+    max-width: 32ch;
+    padding: 150px 0;
+}
+
+.footer-details-one span{
+    color: #8F8F8F;
+    font-size: 18px;
+    line-height: 24px;
+}
+
+.footer-details-two{
+    padding: 150px 0;
+    display: grid;
+    gap: 30px;
+}
+
+
+.footer-details-two p{
+    font-size: 36px;
+    line-height: 40px;
+    color: white;
+
+}

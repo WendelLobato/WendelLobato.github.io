@@ -1,0 +1,18 @@
+body{
+    font-family: Fira Sans, arial, sans-serif;
+}
+
+h1,h2,h3,p,span,a,div,header,section,main,img,ul,li,body{
+margin: 0;
+padding: 0;
+}
+
+li{
+    list-style: none;
+}
+
+.content{
+    max-width: 1200px;
+    margin: 0 auto;
+    
+}

@@ -1,0 +1,50 @@
+.introduction{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    margin-top: 5rem;
+    align-items: center;
+}
+
+.introduction img{
+    display: block;
+    width: 360px;
+    height: 520px;
+}
+
+.introduction-text {
+    margin-left: 8rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+
+}
+
+.introduction-text h1{
+    font-size: 4rem;
+    max-width: 12ch;
+    color: #141414;
+    line-height: 5rem;
+    font-weight: bold;
+    position: relative;
+}
+
+.introduction-text h1::before{
+    background: url("../IMG/detalhe.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    content: "";
+    display: block;
+    position: absolute;
+    width: 120px;
+    height: 120px;
+    z-index: -1;
+    top: -25px;
+    left: -40px;
+}
+
+.introduction-text p{
+    color: #525252;
+    font-size: 1.5rem;
+
+}
